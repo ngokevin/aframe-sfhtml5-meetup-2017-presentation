@@ -14,6 +14,10 @@
 
 ------
 
+<!-- .slide: data-background="media/img/venn-diagram.gif" -->
+
+------
+
 ## Hello World
 
 <!-- .slide: data-background="media/img/aframe.jpg" data-transition="slide-in none" -->
