@@ -467,3 +467,16 @@ div.slide__boilerplate + video {
   margin: 0 !important;
   zoom: 1 !important;
 }
+
+.reveal .cta-button {
+  background: #24CAFF;
+  border-radius: 5px;
+  color: #FAFAFA !important;
+  display: inline-block;
+  padding: 10px 25px !important;
+}
+
+.reveal .cta-button:hover {
+  background: #6FEAFF;
+  color: #FAFAFA !important;
+}

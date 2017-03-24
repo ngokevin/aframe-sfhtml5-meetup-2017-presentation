@@ -18,7 +18,7 @@
 
 ------
 
-## Hello World
+## Hello, WebVR
 
 <!-- .slide: data-background="media/img/aframe.jpg" data-transition="slide-in none" -->
 
@@ -46,7 +46,7 @@
 
 ---
 
-## Hello World
+## Hello, WebVR
 
 <!-- .slide: data-background="media/img/aframe.jpg" data-transition="fade-in slide-out" -->
 
@@ -72,59 +72,11 @@
 
 ---
 
-## Hello Metaverse
-
-<i>by Ada Rose Edwards (@lady_ada_king)</i>
-
-<!-- .slide: data-background="media/img/metaverse.jpg" -->
-
-<div class="stretch" data-aframe-scene="scenes/80s.html"></div>
-
-<!-- NOTES -->
-- A-Frame scene by Ada Rose Edwards running from inside my HTML slides
-- Works on desktop, Android, iOS, Samsung Gear VR, Oculus Rift, HTC Vive
-- Could open up the DOM Inspector to change values live
-- Since it's just HTML...
-
----
+# Powerful and Extensible
 
 <!-- .slide: data-background="media/img/aframe.jpg" -->
 
-## Works With Everything
-
-<div class="captioned-image-row">
-  <div>
-    <img data-src="media/img/d3.png">
-    <i>d3.js</i>
-  </div>
-  <div>
-    <img data-src="media/img/vue.png">
-    <i>Vue.js</i>
-  </div>
-  <div>
-    <img data-src="media/img/react.png">
-    <i>React</i>
-  </div>
-  <div>
-    <img data-src="media/img/redux.png">
-    <i>Redux</i>
-  </div>
-  <div>
-    <img data-src="media/img/jquery.png">
-    <i>jQuery</i>
-  </div>
-  <div>
-    <img data-src="media/img/angular.png">
-    <i>Angular</i>
-  </div>
-</div>
-
-<!-- NOTES -->
-
-- Based on HTML, compatible with all existing libraries/frameworks
-- Good reason to have HTML as an intermediary layer between WebGL/three.js
-- All tools were on top of the notion of HTML
-- Under the hood, A-Frame is an extensible, declarative framework for three.js...
+<img class="stretch" data-src="media/img/diagram.jpg">
 
 ------
 
@@ -165,7 +117,7 @@
 
 # Registry
 
-<!-- .slide: data-background-color="#333" -->
+<!-- .slide: data-background="media/img/minecraft-blocks.png" -->
 
 Curated collection of A-Frame components.
 
@@ -182,21 +134,21 @@ Curated collection of A-Frame components.
 
 # Registry
 
-<!-- .slide: data-background-color="#333" -->
+<!-- .slide: data-background="media/img/minecraft-blocks.png" -->
 
 Curated collection of A-Frame components.
 
 <video loop data-src="media/video/leaphands.mp4" data-autoplay></video>
 
----
+------
 
 ## Inspector
 
-<!-- .slide: data-background="media/img/inspector.png" data-state="state--bg-dark" -->
+<!-- .slide: data-background="media/img/inspector.jpg" data-state="state--bg-dark" -->
 
-Visual tool for A-Frame. Just `<ctrl>+<alt>+i`.
+Visual tool for A-Frame. Hit `<ctrl> + <alt> + i`.
 
-<div class="stretch" data-aframe-scene="scenes/80s.html"></div>
+[Open Example](https://aframe.io/examples/hello-metaverse/)  <!-- .element: class="cta-button" -->
 
 ------
 
@@ -296,16 +248,18 @@ iStaging
 
 ---
 
+<!-- .slide: data-background="media/img/aframe.jpg" -->
+
 # aframe.io
 
 <div class="captioned-image-row">
   <div>
     <img data-src="media/img/github.png">
-    <i>130 contributors 5000 Stargazers</i>
+    <i>135 contributors 5000 Stargazers</i>
   </div>
   <div>
     <img data-src="media/img/slack.png">
-    <i>3000 members on Slack</i>
+    <i>3200 members on Slack</i>
   </div>
   <div>
     <img data-src="media/img/scene-collage-circle.png">
