@@ -18,59 +18,15 @@
 
 ------
 
-## Hello, WebVR
+<!-- .slide: data-background="media/img/aframe.jpg" -->
 
-<!-- .slide: data-background="media/img/aframe.jpg" data-transition="slide-in none" -->
+## A-Frame School
 
-```html
-<html>
-  <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
-  <a-scene>
+An interactive WebVR course
 
+[`aframe.io/school`](https://aframe.io/aframe-school/)  <!-- .element: class="cta-button" -->
 
-
-
-
-  </a-scene>
-</html>
-```
-<!-- .element: class="stretch" -->
-
-<!-- NOTES -->
-- Just HTML
-- Drop a script tag, no build steps
-- Using Custom HTML Elements
-- One line of HTML `<a-scene>` handles
-  - canvas, camera, renderer, lights, controls, render loop, WebVR polyfill, VREffect
-- Put stuff inside our scene...
-
----
-
-## Hello, WebVR
-
-<!-- .slide: data-background="media/img/aframe.jpg" data-transition="fade-in slide-out" -->
-
-```html
-<html>
-  <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
-  <a-scene>
-    <a-box color="#4CC3D9" position="-1 0.5 -3" rotation="0 45 0"></a-box>
-    <a-cylinder color="#FFC65D" position="1 0.75 -3" radius="0.5" height="1.5"></a-cylinder>
-    <a-sphere color="#EF2D5E" position="0 1.25 -5" radius="1.25"></a-sphere>
-    <a-plane color="#7BC8A4" position="0 0 -4" rotation="-90 0 0" width="4" height="4"></a-plane>
-    <a-sky color="#ECECEC"></a-sky>
-  </a-scene>
-</html>
-```
-<!-- .element: class="stretch" -->
-
-<!-- NOTES -->
-- Basic 3D primitives with Custom Elements
-- Readable: HTML arguably most accessible language in computing
-- Encapsulated: copy-and-paste HTML anywhere else and still work, no state or variables
-- Quickly look at a live example...
-
----
+------
 
 # Powerful and Extensible
 
@@ -92,7 +48,7 @@
 - 2D web where every element was fixed
 - 3D/VR is different, objects of infinite types and complexities, need an easy way to build up different kinds of objects
 
----
+------
 
 <!-- .slide: data-background="media/img/standard-components.png" data-background-size="contain" -->
 
@@ -100,7 +56,7 @@
 - These are some components that ship with A-Frame
 - A-Frame is fully extensible at its core so...
 
----
+------
 
 <!-- .slide: data-background="media/img/community-components.png" data-background-size="contain" -->
 
@@ -113,13 +69,13 @@
 - Advanced developers empowering other developers
 - Working on collecting these components...
 
----
+------
 
 # Registry
 
 <!-- .slide: data-background="media/img/minecraft-blocks.png" -->
 
-Curated collection of A-Frame components.
+Curated collection of A-Frame components
 
 <a class="stretch" href="https://aframe.io/aframe-registry">
   <video loop data-src="media/video/registrypreview.mp4" data-autoplay></video>
@@ -130,25 +86,25 @@ Curated collection of A-Frame components.
 - Like a store of components that we make sure work well
 - People can browse and search for components or install them....
 
----
+------
 
 # Registry
 
 <!-- .slide: data-background="media/img/minecraft-blocks.png" -->
 
-Curated collection of A-Frame components.
+Curated collection of A-Frame components
 
 <video loop data-src="media/video/leaphands.mp4" data-autoplay></video>
 
 ------
 
-## Inspector
+# Demo
 
-<!-- .slide: data-background="media/img/inspector.jpg" data-state="state--bg-dark" -->
+<!-- .slide: data-background="media/img/metaverse.jpg" -->
 
-Visual tool for A-Frame. Hit `<ctrl> + <alt> + i`.
+[Remix `glitch.com/~aframe-vaporwave`](https://glitch.com/~aframe-vaporwave)  <!-- .element: class="cta-button" -->
 
-[Open Example](https://aframe.io/examples/hello-metaverse/)  <!-- .element: class="cta-button" -->
+`sfhtml5.glitch.me`
 
 ------
 
@@ -158,7 +114,7 @@ Visual tool for A-Frame. Hit `<ctrl> + <alt> + i`.
 
 https://aframe.io/blog/
 
----
+------
 
 <!-- .slide: data-background="media/img/apainter.gif" -->
 
@@ -166,7 +122,7 @@ https://aframe.io/blog/
 
 @mozillavr
 
----
+------
 
 <!-- .slide: data-background="media/img/syria.gif" -->
 
@@ -174,7 +130,7 @@ https://aframe.io/blog/
 
 Amnesty International UK
 
----
+------
 
 <!-- .slide: data-background="media/img/mars.jpg" -->
 
@@ -182,7 +138,7 @@ Amnesty International UK
 
 The Washington Post
 
----
+------
 
 <!-- .slide: data-background="media/img/citybuilder.gif" -->
 
@@ -190,7 +146,7 @@ The Washington Post
 
 @kfarr
 
----
+------
 
 <!-- .slide: data-background="media/img/adit.gif" -->
 
@@ -198,7 +154,7 @@ The Washington Post
 
 @datatitian
 
----
+------
 
 <!-- .slide: data-background="media/img/a-blast.gif" -->
 
@@ -206,7 +162,7 @@ The Washington Post
 
 @mozillavr
 
----
+------
 
 <!-- .slide: data-background="media/img/ux.gif" -->
 
@@ -214,7 +170,7 @@ The Washington Post
 
 @whoyee
 
----
+------
 
 <!-- .slide: data-background="media/img/math.gif" -->
 
@@ -222,7 +178,7 @@ The Washington Post
 
 @sleighdogs
 
----
+------
 
 <!-- .slide: data-background="media/img/ar.gif" -->
 
@@ -230,7 +186,7 @@ The Washington Post
 
 @jerome_etienne
 
----
+------
 
 <!-- .slide: data-background="media/img/livetour.png" -->
 
@@ -238,7 +194,7 @@ The Washington Post
 
 iStaging
 
----
+------
 
 <!-- .slide: data-background="media/img/cadavr.gif" -->
 
@@ -246,7 +202,7 @@ iStaging
 
 @drryanjames
 
----
+------
 
 <!-- .slide: data-background="media/img/aframe.jpg" -->
 
