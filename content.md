@@ -36,6 +36,54 @@ An interactive WebVR course
 
 ------
 
+# aframe-react
+
+<img class="stretch" data-src="media/img/aframe-react.png">
+
+------
+
+<img class="stretch" data-src="media/img/aframe-react.png">
+
+```js
+import 'aframe';
+import 'aframe-animation-component';
+import 'aframe-particle-system-component';
+import 'aframe-text-geometry-component';
+import {Entity, Scene} from 'aframe-react';
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+import Sky from './components/Sky';
+import Text from './components/Text';
+
+class Scene extends React.Component {
+  render () {
+    return (
+      <Scene>
+        <Entity id="box"
+          geometry={primitive: 'box'}
+          material={{color: 'red', opacity: 0.6}}
+          animation__rotate={{property: 'rotation', dur: 2000, loop: true, to: '360 360 360'}}
+          animation__scale={{property: 'scale', dir: 'alternate', dur: 100, loop: true, to: '1.1 1.1 1.1'}}
+          position='0 -0.5 -3'/>
+
+        <Sky src="https://rawgit.com/aframevr/assets/gh-pages/360-image-gallery-boilerplate/img/sechelt.jpg"/>
+        <Text text='Hello World!' color='#DADADA' position='-1.75 1 -3'/>
+
+        <Entity particle-system={preset: 'snow', particleCount: 5000}/>
+
+        <Entity light={{type: 'ambient', color: '#888'}}/>
+        <Entity light={{type: 'directional', intensity: 1}} position='1 1 0'/>
+      </Scene>
+    );
+  }
+}
+
+ReactDOM.render(<Scene/>, document.querySelector('.scene-container'));
+```
+
+------
+
 # Entity-Component-System
 
 <!-- .slide: data-background="media/img/minecraft-blocks.png" -->
@@ -140,11 +188,35 @@ The Washington Post
 
 ------
 
+<!-- .slide: data-background="media/img/guri.png" -->
+
+# Journalism - *Guri VR*
+
+@impronunciable
+
+------
+
 <!-- .slide: data-background="media/img/citybuilder.gif" -->
 
 # Sandbox - *City Builder*
 
 @kfarr
+
+------
+
+<!-- .slide: data-background="media/img/minecraft.gif" -->
+
+# Sandbox - *Aincraft*
+
+@andgokevin
+
+------
+
+<!-- .slide: data-background="media/img/museum.gif" -->
+
+# Museum - *The Hall*
+
+@cecropia_s
 
 ------
 
@@ -166,7 +238,7 @@ The Washington Post
 
 <!-- .slide: data-background="media/img/ux.gif" -->
 
-# Prototyping - *UI Widgets*
+# Innovation - *UI Widgets*
 
 @whoyee
 
@@ -204,7 +276,15 @@ iStaging
 
 ------
 
-<!-- .slide: data-background="media/img/aframe.jpg" -->
+# Link Traversal
+
+------
+
+# Motion Capture
+
+------
+
+<!-- .slide: data-background="media/img/stars.gif" -->
 
 # aframe.io
 
