@@ -16,7 +16,7 @@
 
 ## Hello World
 
-<!-- .slide: data-background="media/img/aframe.png" data-transition="slide-in none" -->
+<!-- .slide: data-background="media/img/aframe.jpg" data-transition="slide-in none" -->
 
 ```html
 <html>
@@ -44,7 +44,7 @@
 
 ## Hello World
 
-<!-- .slide: data-background="media/img/aframe.png" data-transition="fade-in slide-out" -->
+<!-- .slide: data-background="media/img/aframe.jpg" data-transition="fade-in slide-out" -->
 
 ```html
 <html>
@@ -275,6 +275,8 @@ The Washington Post
 @jerome_etienne
 
 ---
+
+<!-- .slide: data-background="media/img/livetour.png" -->
 
 # Real Estate - *Live Tour*
 
