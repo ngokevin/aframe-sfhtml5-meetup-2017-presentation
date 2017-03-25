@@ -18,6 +18,35 @@
 
 ------
 
+<!-- .slide: data-background="media/img/stars.gif" -->
+
+# aframe.io
+
+`aframe-5000.glitch.me`
+
+<div class="captioned-image-row">
+  <div>
+    <img data-src="media/img/github.png">
+    <i>135 contributors 5000 Stargazers</i>
+  </div>
+  <div>
+    <img data-src="media/img/slack.png">
+    <i>3200 members on Slack</i>
+  </div>
+  <div>
+    <img data-src="media/img/scene-collage-circle.png">
+    <i>100s of featured projects</i>
+  </div>
+</div>
+
+<!-- NOTES -->
+- Open source and inclusive project
+- Most work done on GitHub
+- Active community on Slack to share projects, interact, hang out, seek help
+- Featured projects on the `awesome-aframe` repository and *A Week of A-Frame* blog
+
+------
+
 <!-- .slide: data-background="media/img/aframe.jpg" -->
 
 ## A-Frame School
@@ -156,6 +185,21 @@ Curated collection of A-Frame components
 
 ------
 
+# Motion Capture
+
+Record then develop room scale VR on the go
+
+[Remix Glitch](https://glitch.com/~aframe-mocap-dev)  <!-- .element: class="cta-button" -->
+
+`aframe-mocap-dev.glitch.me`
+
+------
+
+<!-- .slide: data-background-color="#000" data-background-video="media/video/saturdaynight.mp4" -->
+
+
+------
+
 <!-- .slide: data-background="media/img/header.png" -->
 
 # Community
@@ -276,41 +320,8 @@ iStaging
 
 ------
 
-# Motion Capture
-
-Record then develop room scale VR on the go
-
-[`aframe-mocap-dev.glitch.me`](https://aframe-mocap-dev.glitch.me)  <!-- .element: class="cta-button" -->
-
-------
-
-<!-- .slide: data-background-color="#000" data-background-video="media/video/saturdaynight.mp4" -->
-
-------
-
 <!-- .slide: data-background="media/img/stars.gif" -->
 
-# aframe.io
+Come build WebVR with us!
 
-`aframe-5000.glitch.me`
-
-<div class="captioned-image-row">
-  <div>
-    <img data-src="media/img/github.png">
-    <i>135 contributors 5000 Stargazers</i>
-  </div>
-  <div>
-    <img data-src="media/img/slack.png">
-    <i>3200 members on Slack</i>
-  </div>
-  <div>
-    <img data-src="media/img/scene-collage-circle.png">
-    <i>100s of featured projects</i>
-  </div>
-</div>
-
-<!-- NOTES -->
-- Open source and inclusive project
-- Most work done on GitHub
-- Active community on Slack to share projects, interact, hang out, seek help
-- Featured projects on the `awesome-aframe` repository and *A Week of A-Frame* blog
+`aframe.io/community`
