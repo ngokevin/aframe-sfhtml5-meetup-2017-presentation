@@ -276,17 +276,23 @@ iStaging
 
 ------
 
-# Link Traversal
+# Motion Capture
+
+Record then develop room scale VR on the go
+
+[`aframe-mocap-dev.glitch.me`](https://aframe-mocap-dev.glitch.me)  <!-- .element: class="cta-button" -->
 
 ------
 
-# Motion Capture
+<!-- .slide: data-background-color="#000" data-background-video="media/video/saturdaynight.mp4" -->
 
 ------
 
 <!-- .slide: data-background="media/img/stars.gif" -->
 
 # aframe.io
+
+`aframe-5000.glitch.me`
 
 <div class="captioned-image-row">
   <div>
